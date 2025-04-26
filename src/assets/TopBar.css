@@ -1,0 +1,19 @@
+.top-bar {
+    background-color: #0a0a0a;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+  
+  .top-bar .icon {
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .top-bar .icon:hover {
+    color: #6b0f1a;
+  }
+  
