@@ -1,28 +1,17 @@
 {
     "name": "cms-project",
     "version": "1.0.0",
-    "description": "Classified CMS for Clint",
-    "main": "index.js",
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/countdracula6/cms-project.git"
-    },
-    "keywords": [],
-    "author": "CountDracula6",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/countdracula6/cms-project/issues"
-    },
-    "homepage": "https://github.com/countdracula6/cms-project#readme",
+    "private": true,
     "dependencies": {
-        "react": "^18.3.1",
-        "react-dom": "^18.3.1",
-        "react-router-dom": "^7.5.2"
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-router-dom": "^7.5.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
     }
-}
+  }
+  
