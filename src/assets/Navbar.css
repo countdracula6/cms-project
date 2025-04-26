@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #0a0a0a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .navbar-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #6b0f1a; /* Red wine tone */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1em;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #6b0f1a; /* Red wine tone on hover */
+  }
+  
